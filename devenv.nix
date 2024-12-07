@@ -7,7 +7,7 @@
   env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-  packages = [ pkgs.git ];
+  packages = [ pkgs.git pkgs.wp-cli];
 
   # https://devenv.sh/languages/
   # Configure PHP
